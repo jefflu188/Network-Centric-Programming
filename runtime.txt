@@ -1,0 +1,19 @@
+
+time ./p05 data_1MB.txt ad aewr -F
+20000
+0
+
+real	0m0.073s
+user	0m0.068s
+sys	0m0.003s
+
+time ./p05 data_1MB.txt ad aewr
+20000
+0
+
+real	0m0.033s
+user	0m0.029s
+sys	0m0.003s
+$
+
+Run time with flag on more than doubles the runtime with flag off.
